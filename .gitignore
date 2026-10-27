@@ -1,1 +1,38 @@
-# placeholder
+# ---------- Gradle / Kotlin ----------
+.gradle/
+.kotlin/
+build/
+*/build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ---------- 签名材料：绝不入库 ----------
+keystore/
+*.jks
+*.keystore
+keystore.properties
+*.p12
+*.pfx
+
+# ---------- IDE ----------
+.idea/
+*.iml
+*.hprof
+
+# ---------- 系统 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 构建产物 ----------
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+tools/out/
+
+# ---------- 日志 ----------
+*.log

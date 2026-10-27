@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  FileProvider 路径配置。
+
+  为什么需要：Android 11+ 起 /sdcard/Android/data/<pkg>/ 对文件管理器不可见，
+  否则用户拿到日志也没法发出来。用 FileProvider 生成 content:// URI 直接走
+  系统分享（微信/邮件/网盘），不需要任何存储权限。
+-->
+<paths>
+    <!-- 持续落盘的 PTP 日志：files/logs/xx.log -->
+    <external-files-path name="logs" path="logs/" />
+    <!-- 手动导出的单份快照：files/zcloud-log-*.txt -->
+    <external-files-path name="exports" path="." />
+    <files-path name="internal_logs" path="logs/" />
+</paths>

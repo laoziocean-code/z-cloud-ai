@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 外圈：尼康黄细环，暗示镜头卡口 -->
+    <path
+        android:strokeColor="#FFE600"
+        android:strokeWidth="2.5"
+        android:strokeAlpha="0.35"
+        android:fillColor="#00000000"
+        android:pathData="M54,14 A40,40 0 1,1 53.99,14" />
+
+    <!-- 主体 Z 字 -->
+    <path
+        android:fillColor="#FFE600"
+        android:pathData="M33,31 H75 V40.5 L49.5,64.5 H75 V73 H33 V63.5 L58.5,39.5 H33 Z" />
+
+    <!-- 右下角快门点 -->
+    <path
+        android:fillColor="#FFE600"
+        android:fillAlpha="0.85"
+        android:pathData="M74,26 m-4.5,0 a4.5,4.5 0 1,0 9,0 a4.5,4.5 0 1,0 -9,0" />
+</vector>
