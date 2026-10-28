@@ -1,0 +1,10 @@
+# 仓库内文本统一 LF：Windows 工作区不再把 CRLF 带进 blob
+* text=auto eol=lf
+
+# 二进制：不做换行转换
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.apk binary
+*.jks binary
+*.zip binary
